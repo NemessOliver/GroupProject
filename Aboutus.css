@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Circular_STD_BI';
+    src: url(../Fonts/FontsFree-Net-Circular-Std-Bold-Italic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular_STD_Book_I';
+    src: url(../Fonts/CircularStd-BookItalic.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Caveat_regular';
+    src: url(../Fonts/Caveat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    background-image: url(../IMG/background.png);
+    background-size: cover;    
+    margin: 0;
+    padding: 0;
+}
+
+.yellow_rectangle
+{
+    background-color: rgba(237, 229, 187, 0.5);
+    width: 100%;
+    max-width: 1400px;
+    height: 600px;
+    max-height: 1400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.caveat_about_us 
+{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #95261F;
+  font-size: xx-large;
+
+}
+
+.circular_std_bi
+{
+    font-family: 'Circular_STD_BI';
+    color: #95261F;
+    font-size: xx-large;
+}
+
+.Header
+{
+    background-color: #EDE5BB;
+    padding: 10px 0;
+}
+
+.NavBar 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.NavBar a
+{
+    text-decoration: none;
+    color: #95261F;
+}
+
+ul li:nth-child(1)
+{
+font-family: 'Circular_STD_Book_I', serif;
+font-size: 40px;
+}
+
+ul li:nth-child(2)
+{
+    font-family: 'Circular_STD_Book_I', serif;
+    font-size: 40px;
+}
+
+ul li:nth-child(4)
+{
+    font-family: 'Circular_STD_Book_I', serif;
+    font-size: 38px;
+}
+
+ul li:nth-child(5)
+{
+    font-family: 'Circular_STD_BI', serif;
+    font-size: 38px;
+}
+
+.coffee_history_buttton 
+{
+    font-family: 'Caveat_regular';
+    font-weight: 700;
+    font-style: normal;
+    color: #95261F;
+    font-size: xx-large;
+    text-align: right;
+}
