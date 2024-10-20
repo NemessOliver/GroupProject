@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Circular STD N;
+    src: url(Fonts/circular-std-7.ttf);
+}
+
+@font-face {
+    font-family: Circular STD B;
+    src: url(Fonts/circular-std-5.ttf);
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url(Fonts/Caveat-VariableFont_wght.ttf);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.BContainer {
+    background-image: url(images/jregh2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh; 
+    background-attachment: fixed;
+}
+
+.Header
+{
+    background-color: #EDE5BB;
+    padding: 10px 0;
+    background-attachment: fixed;
+}
+
+.NavBar 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.NavBar a
+{
+    text-decoration: none;
+    color: #95261F;
+}
+
+.NavBar li:nth-child(1)
+{
+font-family: 'Circular STD N', serif;
+font-size: 40px;
+}
+
+.NavBar li:nth-child(2)
+{
+    font-family: 'Circular STD N', serif;
+    font-size: 40px;
+}
+
+.NavBar li:nth-child(4)
+{
+    font-family: 'Circular STD B', serif;
+    font-size: 38px;
+}
+
+.NavBar li:nth-child(5)
+{
+    font-family: 'Circular STD N', serif;
+    font-size: 38px;
+}
+
+.Container
+{
+    background-color: rgba(237, 229, 187, 0.69);
+    width: 95vw;
+    height: 75vh;
+    display: grid;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 19px;
+}
+
+.title
+{
+    text-align: center;
+    font-family: 'Circular STD B', serif;
+    font-size: 44px;
+    color: #95261F;
+    padding-top: 10px;
+    align-self: center;
+}
+
+.RContainer
+{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr 1fr 0.2fr;
+    grid-template-rows: repeat(6, 0.3fr 1fr);
+    background-color: rgba(211, 211, 211, 0.3);
+}
+
+.box1
+{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgba(211, 211, 211, 0.7);
+    border-radius: 50px;
+}
+
+.box2
+{
+    grid-column: 4;
+    grid-row: 4;
+    background-color: rgba(211, 211, 211, 0.7);
+    border-radius: 50px;
+}
+
+.box3
+{
+    grid-column: 2;
+    grid-row: 6;
+    background-color: rgba(211, 211, 211, 0.7);
+    border-radius: 50px;
+}
+
+.box4
+{
+    grid-column: 4;
+    grid-row: 8;
+    background-color: rgba(211, 211, 211, 0.7);
+    border-radius: 50px;
+}
+
+.box5
+{
+    grid-column: 2;
+    grid-row: 10;
+    background-color: rgba(211, 211, 211, 0.7);
+    border-radius: 50px;
+}
+
+.box6
+{
+    grid-column: 4;
+    grid-row: 12;
+    background-color: rgba(211, 211, 211, 0.7);
+    border-radius: 50px;
+}
+
+p
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Circular STD N, serif;
+}
+
+h1
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Circular STD B, serif;
+}
+
+.Stars
+{
+    margin-top: 10px;
+    width: 30%;
+}
+
