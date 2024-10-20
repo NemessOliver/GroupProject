@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Circular_STD_BI';
-    src: url(../Fonts/FontsFree-Net-Circular-Std-Bold-Italic.ttf);
+    src: url(../GroupProject/Fonts/FontsFree-Net-Circular-Std-Bold-Italic.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Circular_STD_Book_I';
-    src: url(../Fonts/CircularStd-BookItalic.otf);
+    src: url(../GroupProject/Fonts/CircularStd-BookItalic.otf);
     font-weight: normal;
     font-style: normal;
 }
@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: 'Caveat_regular';
-    src: url(../Fonts/Caveat-Regular.ttf);
+    src: url(../GroupProject/Fonts/Caveat-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -29,7 +29,7 @@
 
 body 
 {
-    background-image: url(../IMG/background.png);
+    background-image: url(../GroupProject/images/background.png);
     background-size: cover;    
     margin: 0;
     padding: 0;
@@ -114,7 +114,7 @@ ul li:nth-child(5)
     font-size: 38px;
 }
 
-.coffee_history_buttton 
+.yellow_rectangle a 
 {
     font-family: 'Caveat_regular';
     font-weight: 700;
