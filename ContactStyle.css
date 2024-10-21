@@ -15,24 +15,14 @@
     box-sizing: border-box;
 }
 
-body
-{
-    
-    display: grid;
-    grid-template-columns: 250px 1400px 200px;
-    background-color: black;
-    margin-top: 20px;
-}
 
-.BContainer
-{
+
+.BContainer {
     background-image: url(images/jregh2.jpeg);
-    background-size: cover; /* Ensures the background covers the entire container */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    grid-column: 2;
-    width: 100%;
-    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; /* Ensure no repeated background */
+    background-position: center;
+    min-height: 100vh; /* Set minimum height to viewport height to prevent white space */
 }
 
 .Header
@@ -83,11 +73,11 @@ font-size: 40px;
 .Container
 {
     background-color: rgba(237, 229, 187, 0.69);
-    width: 95%;
-    height: 75%;
+    width: 95vw;
+    height: 75vh;
     display: grid;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 70px;
     border-radius: 19px;
     grid-template-columns: 3fr 2fr;
     grid-template-rows: 1fr 4fr 1fr;
@@ -108,14 +98,17 @@ font-size: 40px;
 .map
 {
     display: flex;
-    width: 50vw;
-    height: 50vh;
-    opacity: 1;
     flex: 1;
     grid-row: 2/3;
     grid-column: 1/2;
     margin-left: 80px;
     flex-wrap: nowrap;
+}
+
+.map > iframe
+{
+    width: 40vw;
+    height: 45vh;
 }
 
 .Text li:nth-child(1)
@@ -156,46 +149,44 @@ font-size: 40px;
 
 .info 
 {
-    
+    grid-template-columns: 2/3;
     color: #95261F;
     margin-left: -200px;
     text-align: center;
     align-self: center;
 }
 
-.Logos
-{
+.Logos {
     display: flex;
-    width: 65px;
-    height: 65px;
-    margin-left: 120px;
-    margin-top: 10px;
+    justify-content: center; /* Align logos within the second column */
+    margin-top: 20px; 
+    grid-column: 2/3; /* Place in second column */
 }
 
-.X
-{
+.X, .I, .T {
     padding-right: 20px;
-}
-.I
-{
-    padding-right: 20px;
-}
-.T
-{
-    padding-right: 20px;
-}
+    width: 85px;
+    height: 65px;
+}   
 
 footer a
 {
     color: #95261F;
     text-decoration: none;
     font-family: 'Circular STD B', serif;
-    font-size: 30px;
-    text-align: right;
+    font-size: 50px;
 }
 
-footer
+.Wrev
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1/2;
+    align-self : center;
+    margin: 0 auto;
 }
+
+.Crev
+{
+    grid-template-columns: 2/3;
+    align-self: center;
+}
+
