@@ -20,7 +20,9 @@
     box-sizing: border-box;
 }
 
-.BContainer {
+
+
+body {
     background-image: url(images/jregh2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,11 +31,21 @@
     background-attachment: fixed;
 }
 
-.Header
-{
+.Header {
     background-color: #EDE5BB;
     padding: 10px 0;
     background-attachment: fixed;
+    position: fixed; /* Ensure the header stays at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.Header.hidden {
+    transform: translateY(-100%); /* Slide the header up out of view */
+    opacity: 0;
 }
 
 .NavBar 
@@ -82,8 +94,9 @@ font-size: 40px;
     height: 75vh;
     display: grid;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 150px;
     border-radius: 19px;
+    margin-bottom: 80px;
 }
 
 .title
@@ -101,7 +114,28 @@ font-size: 40px;
     display: grid;
     grid-template-columns: 0.2fr 1fr 0.2fr 1fr 0.2fr;
     grid-template-rows: repeat(6, 0.3fr 1fr);
-    background-color: rgba(211, 211, 211, 0.3);
+    background-color: rgba(211, 211, 211, );
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px); /* Start slightly lower than final position */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0); /* Element moves to its normal position */
+}
+
+.hide-again {
+    opacity: 0;
+    transform: translateY(-50px); /* Slide up out of view when scrolling down again */
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0); /* Moves the element to its final position */
 }
 
 .box1
@@ -171,4 +205,3 @@ h1
     margin-top: 10px;
     width: 30%;
 }
-

@@ -22,7 +22,7 @@
     background-size: cover;
     background-repeat: no-repeat; /* Ensure no repeated background */
     background-position: center;
-    min-height: 100vh; /* Set minimum height to viewport height to prevent white space */
+    min-height: 110vh; /* Set minimum height to viewport height to prevent white space */
 }
 
 .Header
@@ -74,7 +74,7 @@ font-size: 40px;
 {
     background-color: rgba(237, 229, 187, 0.69);
     width: 95vw;
-    height: 75vh;
+    height: 80vh;
     display: grid;
     margin: 0 auto;
     margin-top: 70px;
