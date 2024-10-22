@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu OUI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="main-grid-2">
+
+            <div class="Header">
+                <nav>
+                    <ul class="NavBar">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">Menu</a>
+                        </li>
+                        <li>
+                            <a href=""><img src="images/images/ouiii.png" alt="OUI"></a>
+                        </li>
+                        <li class="Contact">
+                            <a href="">Contact</a>
+                        </li>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        <div class="main-grid-1">
+
+            <div id="modal" class="modal">
+
+                <span class="close">&times;</span>
+                 <img class="modal-content" id="modal-img">
+
+            </div>
+            <div class="container-item-1">
+
+                <div class="header">
+
+                    <h1><span class="std-5">Coffee & Drinks</span></h1>
+
+                </div>
+                <div class="proportions">
+
+                    <button id="proportion" class="proportion">
+
+                        Click to see proportions
+
+                    </button>
+                    <img id="img" class="img" src="images/images/cappucino.png" alt="" style="display: none;">
+                    <script>
+
+                        var modal = document.getElementById("modal");
+
+                        var btn = document.getElementById("proportion");
+
+                        var span = document.getElementsByClassName("close")[0];
+
+                        btn.onclick = function() {
+                            modal.style.display = "block";
+                            var imgInModal = document.getElementById("modal-img");
+                            imgInModal.src = "images/images/cappucino.png";
+                        }
+
+                        span.onclick = function() {
+                            modal.style.display = "none";
+                        }
+
+                        window.onclick = function(event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                            }
+                        }
+
+                    </script>
+
+                </div>
+                <div class="menu-item">
+
+                    <p> 
+
+                        <span class="std-5">Espresso </span>- Rich and bold, a classic shot of espresso. 
+                        
+                    </p>
+
+                </div>
+                <div class="menu-item-2">
+
+                    <p>
+
+                        <span class="std-5">Café au Lait </span>- Smooth coffee with steamed milk. 
+
+                    </p>
+                </div>
+                <div class="menu-item">
+
+                    <p>
+
+                        <span class="std-5">Cappuccino </span>- Espresso with steamed milk and a thick layer of foam. 
+
+                    </p>
+                </div>
+                <div class="menu-item">
+
+                    <p>
+
+                        <span class="std-5">Latte </span>- Creamy espresso with steamed milk and a light foam. 
+
+                    </p>
+                </div>
+                <div class="menu-item-3">
+
+                    <p>
+
+                        <span class="std-5">Mocha </span>- Espresso with chocolate, steamed milk and whipped cream. 
+
+                    </p>
+                </div>
+                <div class="menu-item-2">
+
+                    <p>
+
+                        <span class="std-5">Macchiato </span>- Espresso with a blob of frothed milk. 
+
+                    </p>
+                </div>
+                <div class="menu-item-4">
+
+                    <p>
+
+                        <span class="std-5">Hot chocolate </span>- Velvety smooth, made with real chocolate. 
+
+                    </p>
+                </div>
+                <div class="menu-item-3">
+
+                    <p>
+
+                        <span class="std-5">Tea Selection </span>- A variety of fine teas, including Earl Grey, Chamomile and Green teas. 
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="container-item-2">
+
+                <div class="header">
+
+                    <h1><span class="std-5">Cakes and sweets</span></h1>
+
+                </div>
+                <div class="menu-item-4">
+
+                    <p>
+
+                        <span class="std-5">Croissant </span>- Flaky, buttery and freshly baked. 
+
+                    </p>
+
+                </div>
+                <div class="menu-item-3">
+
+                    <p>
+
+                        <span class="std-5">Pain au Chocolat </span>- Croissant dough filled with rich chocolate. 
+                        
+                    </p>
+                </div>
+                <div class="menu-item">
+
+                    <p>
+
+                        <span class="std-5">Macarons </span>- Delicate almond meringue cookies in a variety of flavors. 
+
+                    </p>
+
+                </div>
+                <div class="menu-item-3">
+
+                    <p>
+
+                        <span class="std-5">Éclair </span>- Soup dough filled with cream and garnished with chocolate. 
+
+                    </p>
+
+                </div>
+                <div class="menu-item-4">
+
+                    <p>
+                        
+                        <span class="std-5">Tarte Tatin </span>- Caramelized apple pie. 
+
+                    </p>
+
+                </div>
+                <div class="menu-item">
+
+                    <p>
+                        
+                        <span class="std-5">Madeleines </span>- Light and fluffy sponge cake in the shape of a shell. 
+
+                    </p>
+
+                </div>
+                <div class="menu-item-3">
+
+                    <p>
+                        
+                        <span class="std-5">Crème Brûlée </span>- Creamy custard with a caramelized sugar crust. 
+
+                    </p>
+
+                </div>
+                <div class="menu-item-2">
+
+                    <p>
+                        
+                        <span class="std-5">Financiers </span>- Small almond cookies, perfect with coffee.
+
+                    </p>
+
+                </div>
+                <div class="header-adds">
+
+                    <h1><span class="std-5">Add-ons for beverages</span></h1>
+
+                </div>
+                <div class="adds-item">
+
+                    <p>
+
+                        <span class="std-5">Flavored syrups </span>- Vanilla, caramel, hazelnut. 
+
+                    </p>
+                </div>
+                <div class="adds-item">
+
+                    <p>
+
+                        <span class="std-5">Milk options </span>- Full, skim, almond, soy.
+
+                    </p>
+                </div>
+            </div>
+            <div class="container-item-3">
+
+                <h1>
+
+                    <span class="std-5">Cafe OUI Menu</span>
+
+                </h1>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
