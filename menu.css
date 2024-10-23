@@ -1,17 +1,17 @@
 
 @font-face {
     font-family: "circular-std-5";
-    src: url(images/Fonts/circular-std-5.ttf);
+    src: url(Fonts/circular-std-5.ttf);
 }
 
 @font-face {
     font-family: "circular-std-7";
-    src: url(images/Fonts/circular-std-7.ttf);
+    src: url(Fonts/circular-std-7.ttf);
 }
 
 @font-face {
     font-family: "circular-std-m";
-    src: url(images/Fonts/circular-std-medium-500.ttf);
+    src: url(Fonts/circular-std-medium-500.ttf);
 }
 
 *{
@@ -27,7 +27,7 @@ main{
 
 .main-grid-1{
     grid-row: 2 / 3;
-    background-image: url(images/images/jregh2.jpeg);
+    background-image: url(images/jregh2.jpeg);
     padding: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,6 +46,7 @@ main{
     align-items: center;
     list-style-type: none;
     font-size: 30px;
+    margin-top: 1rem;
 }
 
 .NavBar a
@@ -56,7 +57,7 @@ main{
 
 ul li:nth-child(1)
 {
-font-family: 'circular-std-5', serif;
+font-family: 'circular-std-7', serif;
 font-size: 40px;
 }
 
@@ -68,13 +69,13 @@ ul li:nth-child(2)
 
 ul li:nth-child(4)
 {
-    font-family: 'circular-std-5', serif;
+    font-family: 'circular-std-7', serif;
     font-size: 38px;
 }
 
 ul li:nth-child(5)
 {
-    font-family: 'circular std 5', serif;
+    font-family: 'circular std 7', serif;
     font-size: 38px;
 }
 
@@ -86,6 +87,7 @@ ul li:nth-child(5)
     flex-direction: column;
     align-items: center;
     opacity: 0.69;
+    border-bottom-left-radius: 20px;
 }
 
 .container-item-2{
@@ -97,6 +99,7 @@ ul li:nth-child(5)
     justify-content: center;
     align-items: center;
     opacity: 0.69;
+    border-bottom-right-radius: 20px;
 }
 
 .container-item-3{
@@ -108,6 +111,8 @@ ul li:nth-child(5)
     justify-content: center;
     align-items: center;
     font-size: 26px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .header, .menu-item, .menu-item-2, .menu-item-3, .menu-item-4, .header-adds, .adds-item, .container-item-3 > h1{
@@ -166,6 +171,7 @@ ul li:nth-child(5)
 
 .modal-content{
     margin: auto;
+    margin-top: 6.5rem;
     display: block;
     width: 80%;
     max-width: 700px;
