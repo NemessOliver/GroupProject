@@ -77,13 +77,19 @@ body
 .img img
 {
     width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .aboutus_button
 {
     margin-top: 2em;
-    display: flex;
-    justify-content: right;
+    display: inline-block;
+    background-color: rgba(237, 229, 187);
+    text-align: right;
+    border-radius: 10px;
+    margin-left: 60em;
+    padding: 10px;
 }
 
 .yellow_rectangle a 
