@@ -27,9 +27,55 @@
     box-sizing: border-box;
 }
 
+.Header
+{
+    background-color: #EDE5BB;
+    padding: 10px 0;
+}
+
+.NavBar 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.NavBar a
+{
+    text-decoration: none;
+    color: #95261F;
+}
+
+.NavBar li:nth-child(1)
+{
+font-family: 'Circular_STD_Book_I', serif;
+font-size: 40px;
+}
+
+.NavBar li:nth-child(2)
+{
+    font-family: 'Circular_STD_Book_I', serif;
+    font-size: 40px;
+}
+
+.NavBar li:nth-child(4)
+{
+    font-family: 'Circular_STD_Book_I', serif;
+    font-size: 38px;
+}
+
+.NavBar li:nth-child(5)
+{
+    font-family: 'Circular_STD_BI', serif;
+    font-size: 38px;
+} 
+
+
 body 
 {
-    background-image: url(../GroupProject/images/background.png);
+    background-image: url(../GroupProject/images/jregh2.jpeg);
     background-size: cover;    
     margin: 0;
     padding: 0;
@@ -43,7 +89,7 @@ body
     height: 600px;
     max-height: 1400px;
     margin: 50px auto;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 20px;
     border-radius: 10px;
     justify-content: center;
@@ -68,52 +114,6 @@ body
     font-family: 'Circular_STD_BI';
     color: #95261F;
     font-size: xx-large;
-}
-
-.Header
-{
-    background-color: #EDE5BB;
-    padding: 10px 0;
-}
-
-.NavBar 
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style-type: none;
-    font-size: 30px;
-    margin-top: 40px;
-}
-
-.NavBar a
-{
-    text-decoration: none;
-    color: #95261F;
-}
-
-ul li:nth-child(1)
-{
-font-family: 'Circular_STD_Book_I', serif;
-font-size: 40px;
-}
-
-ul li:nth-child(2)
-{
-    font-family: 'Circular_STD_Book_I', serif;
-    font-size: 40px;
-}
-
-ul li:nth-child(4)
-{
-    font-family: 'Circular_STD_Book_I', serif;
-    font-size: 38px;
-}
-
-ul li:nth-child(5)
-{
-    font-family: 'Circular_STD_BI', serif;
-    font-size: 38px;
 }
 
 .yellow_rectangle a 
