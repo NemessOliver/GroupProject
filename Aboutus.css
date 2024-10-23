@@ -86,7 +86,7 @@ body
     background-color: rgba(237, 229, 187, 0.5);
     width: 100%;
     max-width: 1400px;
-    height: 600px;
+    height: 620px;
     max-height: 1400px;
     margin: 50px auto;
     margin-top: 50px;
@@ -127,6 +127,11 @@ body
 
 .coffee_history_button 
 {
-    display: flex;
-    justify-content: right;
+    display: inline-block;
+    background-color: rgba(237, 229, 187);
+    text-align: right;
+    border-radius: 10px;
+    margin-left: 60em;
+    padding: 10px;
+    margin-bottom : 1em;
 }
