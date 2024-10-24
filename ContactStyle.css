@@ -103,12 +103,15 @@ font-size: 40px;
     grid-column: 1/2;
     margin-left: 80px;
     flex-wrap: nowrap;
+    
 }
 
 .map > iframe
 {
     width: 40vw;
     height: 45vh;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.6); /* Shadow effect */
+    border-radius:20px;
 }
 
 .Text li:nth-child(1)
@@ -169,12 +172,15 @@ font-size: 40px;
     height: 65px;
 }   
 
-footer a
-{
+footer a {
     color: #95261F;
-    text-decoration: none;
     font-family: 'Circular STD B', serif;
     font-size: 50px;
+    text-decoration: none; /* Remove the default underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
 
 .Wrev
