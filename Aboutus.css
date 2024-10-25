@@ -48,6 +48,11 @@
     color: #95261F;
 }
 
+.NavBar a:hover
+{
+    text-decoration: underline;   
+}
+
 .NavBar li:nth-child(1)
 {
 font-family: 'Circular_STD_Book_I', serif;
@@ -122,6 +127,12 @@ body
     font-style: normal;
     color: #95261F;
     font-size: xx-large;
+    text-decoration: none;
+}
+
+.yellow_rectangle a:hover
+{
+    text-decoration: underline;
 }
 
 .coffee_history_button 

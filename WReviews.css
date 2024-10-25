@@ -51,6 +51,10 @@
     color: #95261F;
 }
 
+.NavBar a:hover
+{
+    text-decoration: underline;   
+}
 .NavBar li:nth-child(1)
 {
 font-family: 'Circular STD N', serif;

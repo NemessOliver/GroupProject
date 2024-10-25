@@ -61,6 +61,11 @@ main{
     color: #95261F;
 }
 
+.NavBar a:hover
+{
+    text-decoration: underline;   
+}
+
 ul li:nth-child(1)
 {
 font-family: 'circular-std-7', serif;
