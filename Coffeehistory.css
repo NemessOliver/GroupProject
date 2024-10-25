@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Caveat_regular';
+    src: url(../GroupProject/Fonts/Caveat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body 
+{
+    background-image: url(../GroupProject/images/eiffel_tower.webp);
+    background-size: cover;    
+    margin: 0;
+    padding: 0;
+}
+
+.yellow_rectangle
+{
+    background-color: rgba(237, 229, 187, 0.7);
+    width: 100%;
+    max-width: 1400px;
+    height: 3600px;
+    max-height: 3100px;
+    margin: 50px auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.caveat_h1 
+{
+    font-family: 'Caveat_regular';
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: italic;
+    color: #95261f;
+    font-size: 5em;
+}
+
+.caveat_h2 
+{
+    margin-top: 1em;
+    font-family: 'Caveat_regular';
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: italic;
+    color: #95261f;
+    font-size: 2.5em;
+}
+
+.caveat_p 
+{
+    margin-top: 1em;
+    font-family: 'Caveat_regular';
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: italic;
+    color: #95261f;
+    font-size: xx-large;
+}
+
+.img
+{
+    padding-top: 2em;
+}
+
+.img img
+{
+    width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.aboutus_button
+{
+    margin-top: 2em;
+    display: inline-block;
+    background-color: rgba(237, 229, 187);
+    text-align: right;
+    border-radius: 10px;
+    margin-left: 60em;
+    padding: 10px;
+}
+
+.yellow_rectangle a 
+{
+    font-family: 'Caveat_regular';
+    font-weight: 700;
+    font-style: normal;
+    color: #95261F;
+    font-size: xx-large;
+}

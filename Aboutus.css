@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Circular_STD_BI';
+    src: url(../GroupProject/Fonts/FontsFree-Net-Circular-Std-Bold-Italic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular_STD_Book_I';
+    src: url(../GroupProject/Fonts/CircularStd-BookItalic.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Caveat_regular';
+    src: url(../GroupProject/Fonts/Caveat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header
+{
+    background-color: #EDE5BB;
+    padding: 10px 0;
+}
+
+.NavBar 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+.NavBar a
+{
+    text-decoration: none;
+    color: #95261F;
+}
+
+.NavBar li:nth-child(1)
+{
+font-family: 'Circular_STD_Book_I', serif;
+font-size: 40px;
+}
+
+.NavBar li:nth-child(2)
+{
+    font-family: 'Circular_STD_Book_I', serif;
+    font-size: 40px;
+}
+
+.NavBar li:nth-child(4)
+{
+    font-family: 'Circular_STD_Book_I', serif;
+    font-size: 38px;
+}
+
+.NavBar li:nth-child(5)
+{
+    font-family: 'Circular_STD_BI', serif;
+    font-size: 38px;
+} 
+
+
+body 
+{
+    background-image: url(../GroupProject/images/jregh2.jpeg);
+    background-size: cover;    
+    margin: 0;
+    padding: 0;
+}
+
+.yellow_rectangle
+{
+    background-color: rgba(237, 229, 187, 0.5);
+    width: 100%;
+    max-width: 1400px;
+    height: 620px;
+    max-height: 1400px;
+    margin: 50px auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.caveat_about_us 
+{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #95261F;
+  font-size: xx-large;
+
+}
+
+.circular_std_bi
+{
+    font-family: 'Circular_STD_BI';
+    color: #95261F;
+    font-size: xx-large;
+}
+
+.yellow_rectangle a 
+{
+    font-family: 'Caveat_regular';
+    font-weight: 700;
+    font-style: normal;
+    color: #95261F;
+    font-size: xx-large;
+}
+
+.coffee_history_button 
+{
+    display: inline-block;
+    background-color: rgba(237, 229, 187);
+    text-align: right;
+    border-radius: 10px;
+    margin-left: 60em;
+    padding: 10px;
+    margin-bottom : 1em;
+}
