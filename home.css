@@ -1,19 +1,19 @@
 @font-face 
 {
     font-family: Circular STD N;
-    src: url(images/Fonts/circular-std-7.ttf);
+    src: url(Fonts/circular-std-7.ttf);
 }
 
 @font-face 
 {
     font-family: Circular STD B;
-    src: url(images/Fonts/circular-std-5.ttf);
+    src: url(Fonts/circular-std-5.ttf);
 }
 
 @font-face 
 {
     font-family: Caveat;
-    src: url(images/Fonts/Caveat-VariableFont_wght.ttf);
+    src: url(Fonts/Caveat-VariableFont_wght.ttf);
 }
 
 * 
