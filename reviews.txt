@@ -110,3 +110,17 @@ Gender: Male
 Rating: 0
 Review: oo
 
+Name: Miguel Cavaleiro
+Email: miguel.cavaleiro25@gmail.com
+Age: 18
+Gender: Male
+Rating: 5
+Review: testing
+
+Name: Miguel Cavaleir
+Email: miguel.cavaleiro25@gmail.com
+Age: 12345
+Gender: Female
+Rating: 5
+Review: ahrjfilencu
+
