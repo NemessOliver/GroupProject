@@ -12,11 +12,11 @@
         <div class="Header" id="header">
             <nav>
                 <ul class="NavBar">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Menu</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
                     <li><a href=""><img src="images/ouiii.png" alt="OUI"></a></li>
                     <li class="Contact"><a href="contact.html">Contact</a></li>
-                    <li><a href="">About Us</a></li>
+                    <li><a href="Aboutus.html">About Us</a></li>
                 </ul>
             </nav>
         </div>
