@@ -1,0 +1,94 @@
+@font-face 
+{
+    font-family: Circular STD N;
+    src: url(images/Fonts/circular-std-7.ttf);
+}
+
+@font-face 
+{
+    font-family: Circular STD B;
+    src: url(images/Fonts/circular-std-5.ttf);
+}
+
+@font-face 
+{
+    font-family: Caveat;
+    src: url(images/Fonts/Caveat-VariableFont_wght.ttf);
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.oui
+{
+    width: 50px;
+    height: 50px;
+}
+
+
+header 
+{
+    background-color: #EDE5BB;
+    padding: 30px;
+    font-family: 'Circular STD N', serif;
+}
+
+nav ul 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li 
+{
+    display: flex;
+    justify-content: center;    
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #8B2C25;
+}
+
+.home
+{
+    font-weight: bold;
+}
+
+.content 
+{
+    background-image: url(images/home\ page.png); 
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text
+{
+    text-align: center;
+    color: #EDE5BB;
+    font-family: 'Caveat' , serif;
+}
+
+.content h1 
+{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.content p 
+{
+    font-size: 60px;
+    font-weight: 200;
+}
+
