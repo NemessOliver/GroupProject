@@ -84,7 +84,6 @@ body
 .yellow_rectangle
 {
     background-color: rgba(237, 229, 187, 0.5);
-    width: 100%;
     max-width: 1400px;
     height: 620px;
     max-height: 1400px;
@@ -92,8 +91,8 @@ body
     margin-top: 50px;
     padding: 20px;
     border-radius: 10px;
-    justify-content: center;
     text-align: center;
+    align-self: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
 }
@@ -101,11 +100,11 @@ body
 .caveat_about_us 
 {
   font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
   color: #95261F;
-  font-size: xx-large;
+  font-size: 45px;
+  margin-left: 50px;
+  margin-right: 50px;
 
 }
 
@@ -133,5 +132,5 @@ body
     border-radius: 10px;
     margin-left: 60em;
     padding: 10px;
-    margin-bottom : 1em;
+    margin-top: 40px;
 }
